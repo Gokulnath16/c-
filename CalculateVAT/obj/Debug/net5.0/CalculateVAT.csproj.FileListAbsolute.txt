@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.exe
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.deps.json
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.dll
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\ref\CalculateVAT.dll
+D:\CTS\C# MyWorstQuestions\CalculateVAT\bin\Debug\net5.0\CalculateVAT.pdb
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.dll
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\ref\CalculateVAT.dll
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.pdb
+D:\CTS\C# MyWorstQuestions\CalculateVAT\obj\Debug\net5.0\CalculateVAT.genruntimeconfig.cache
