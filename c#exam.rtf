@@ -1,0 +1,506 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Consolas;}{\f2\fnil\fcharset0 Consolas;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red43\green145\blue175;\red128\green0\blue0;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\tab\tab\tab\tab\ul\fs44 C# questions\ulnone\fs22\par
+\par
+\fs40 Password Validation\par
+\fs22\par
+Given a method with a password in string format as input, write code to validate the password using\par
+following rules:\par
+- Must contain at least one digit\par
+- Must contain at least one of the following special characters @, #, $\par
+- Length should be between 6 and 20 characters (both inclusive).\par
+Include a class UserProgramCode with a static method validatePassword which accepts a password string\par
+as input.\par
+If the password is as per the given rules return 1 else return -1.If the return value is 1 then print "Valid\par
+password" else print as "Invalid password".\par
+Create a Program class which gets a string as an input and call the static method validatePassword present\par
+in the UserProgramCode.\par
+Input and Output Format:\par
+Input is a string .\par
+Output consists of a string. Output "Valid password" if the given password is valid or "Invalid password"\par
+if the given password is not valid.\par
+\par
+Sample Input 1:\par
+%Dhoom%\par
+Sample Output 1:\par
+Invalid password\par
+\par
+Sample Input 2:\par
+#@6Don\par
+Sample Output 2:\par
+Valid password\par
+\par
+\par
+\cf1\f1 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\cf1 using\cf2  System.Text.RegularExpressions;\par
+\cf1 namespace\cf2  ConsoleApp2\par
+\{\par
+    \cf1 class\cf2  \cf3 Program\cf2\par
+    \{\par
+        \cf1 class\cf2  \cf3 UserProgramCode\cf2\par
+        \{\par
+            \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  validatePassword(\cf1 string\cf2  s)\par
+            \{\par
+                \cf1 if\cf2  (Regex.IsMatch(s, \cf4 @"^((?=.*[\\d])(?=.*[a-zA-z])(?=.*[@#$])([a-zA-z0-9$#@]\{6,20\}))"\cf2 ))\par
+                \{\par
+                    Console.WriteLine(\cf5 "Valid password"\cf2 );\par
+                \}\par
+                \cf1 else\cf2\par
+                \{\par
+                    Console.WriteLine(\cf5 "Invalid password"\cf2 );\par
+                \}\par
+                \cf1 return\cf2  0;\par
+            \}\par
+            \cf1 static\cf2  \cf1 void\cf2  Main(\cf1 string\cf2 [] args)\par
+            \{\par
+                \cf1 string\cf2  str1;\par
+                \cf1 int\cf2  x;\par
+                str1 = Console.ReadLine();\par
+                x = UserProgramCode.validatePassword(str1);\par
+                \par
+            \}\par
+        \}\par
+    \}\par
+\}\par
+\par
+\f2\lang1033 ________________________________________________________________________\f1\lang9\par
+\cf0\f0\fs40 MinMaxSum\par
+\fs24 Write a program that accepts 3 integer inputs and finds the sum of maximum and minimum.\par
+Business Rules :\par
+1) If any/ or all of the input value is negative then print -1.\par
+2) If any two or all the values in the Input are same then print -2.\par
+Example 1:\par
+Input1: 25\par
+Input2: 2\par
+Input3: 95\par
+Output : 97 (Min 2 + Max 95)\par
+Example 2:\par
+Input1: -15\par
+Input2: 49\par
+Input3: 5\par
+Output : -1\par
+Create a class named UserProgramCode that has the following static method\par
+public static int sumMaxMin(int input1, int input2, int input3)\par
+Create a class named Program that accepts the inputs and calls the static method present in the\par
+UserProgramCode.\par
+Input and Output Format:\par
+Input consists of 3 integers.\par
+Output is an integer. Refer sample output and business rules\par
+\par
+Sample Input 1:\par
+25\par
+2\par
+95\par
+Sample Output 1:\par
+97\par
+\par
+Sample Input 2:\par
+-15\par
+49\par
+5\par
+Sample Output 2:\par
+-1\par
+\par
+\cf1\f1\fs22 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\cf1 namespace\cf2  ConsoleApplication13\par
+\{\par
+    \cf1 class\cf2  \cf3 userprogramcode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  sumMaxMin(\cf1 int\cf2  ip1, \cf1 int\cf2  ip2, \cf1 int\cf2  ip3)\par
+        \{\par
+            \cf1 int\cf2  ans, a, b;\par
+            \cf1 int\cf2 [] t1 = \cf1 new\cf2  \cf1 int\cf2 [3];\par
+            t1[0] = ip1;\par
+            t1[1] = ip2;\par
+            t1[2] = ip3;\par
+            \cf1 for\cf2  (\cf1 int\cf2  i = 0; i < 3; i++)\par
+                \cf1 if\cf2  (t1[i] < 0)\par
+                    \cf1 return\cf2  -1;\par
+            \cf1 for\cf2  (\cf1 int\cf2  i = 0; i < 2; i++)\par
+            \{\par
+                \cf1 for\cf2  (\cf1 int\cf2  j = i + 1; j < 3; j++)\par
+                \{\par
+                    \cf1 if\cf2  (t1[i] == t1[j])\par
+                        \cf1 return\cf2  -2;\par
+                \}\par
+            \}\par
+            a = t1.Max();\par
+            b = t1.Min();\par
+            ans = a + b;\par
+            \cf1 return\cf2  ans;\par
+        \}\par
+    \}\par
+    \cf1 class\cf2  \cf3 Program\cf2\par
+    \{\par
+        \cf1 static\cf2  \cf1 void\cf2  Main(\cf1 string\cf2 [] args)\par
+        \{\par
+\par
+            \cf1 int\cf2  x, y, z, k;\par
+            x = Convert.ToInt32(Console.ReadLine());\par
+            y = Convert.ToInt32(Console.ReadLine());\par
+            z = Convert.ToInt32(Console.ReadLine());\par
+            \cf6 // k = Convert.ToInt32(Console.ReadLine());\cf2\par
+            k = userprogramcode.sumMaxMin(x, y, z);\par
+            Console.WriteLine(k);\par
+        \}\par
+    \}\par
+\par
+\f2\fs40\lang1033 _______________________________________\par
+ColorCode\par
+\cf0\f0\fs22\lang9 Write a program to find whther the given string corresponds to a valid colour code or not.\par
+Write code to validate the given color code based on following rules:\par
+- Must start with # symbol\par
+- Must contain six characters after #\par
+- It may contain alphabets from A-F (only upper case) or digits from 0-9\par
+Example :\par
+input = #FF9922\par
+output = Valid\par
+Include a class UserProgramCode with a static method validateColorCode. This method returns 1 if the\par
+input corresponds to a valid color code. Else this method returns -1.\par
+Create a class Program which would get the input and call the static method validateColorCode present in the UserProgramCode.\par
+Input and Output Format:\par
+Input is a string - color code as value\par
+Output is a string - Valid or Invalid\par
+\par
+Sample Input 1:\par
+#FF9922\par
+Sample Output 1:\par
+Valid\par
+\par
+Sample Input 2:\par
+1234567\par
+Sample Output 2:\par
+Invalid\par
+\par
+\cf1\f1 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\cf1 namespace\cf2  ConsoleApplication13\par
+\{\par
+    \cf1 class\cf2  \cf3 Program\cf2\par
+    \{\par
+        \cf1 static\cf2  \cf1 void\cf2  Main(\cf1 string\cf2 [] args)\par
+        \{\par
+            \cf1 string\cf2  str = Console.ReadLine();\par
+            \cf1 int\cf2  i = UserProgramCode.validateColorCode(str);\par
+            \cf1 if\cf2  (i == 1)\par
+                Console.WriteLine(\cf5 "Valid"\cf2 );\par
+            \cf1 else\cf2\par
+                Console.WriteLine(\cf5 "Invalid"\cf2 );\par
+            Console.ReadLine();\par
+        \}\par
+    \}\par
+    \cf1 class\cf2  \cf3 UserProgramCode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  validateColorCode(\cf1 string\cf2  s)\par
+        \{\par
+            \cf1 int\cf2  flag = 0;\par
+            \cf1 if\cf2  (s.StartsWith(\cf5 "#"\cf2 ))\par
+            \{\par
+                \cf1 if\cf2  (s.Length == 7)\par
+                \{\par
+                    \cf1 char\cf2 [] ch = s.ToCharArray();\par
+                    \cf1 for\cf2  (\cf1 int\cf2  i = 1; i <= 6; i++)\par
+                    \{\par
+                        \cf1 if\cf2  (\cf1 char\cf2 .IsDigit(ch[i]) || \cf5 "ABCDEF"\cf2 .Contains(ch[i]))\par
+                        \{\par
+                            flag = 1;\par
+                        \}\par
+                        \cf1 else\cf2\par
+                        \{\par
+                            flag = 0;\par
+                            \cf1 break\cf2 ;\par
+                        \}\par
+                    \}\par
+                \}\par
+            \}\par
+            \cf1 if\cf2  (flag == 0)\par
+                \cf1 return\cf2  -1;\par
+            \cf1 else\cf2\par
+                \cf1 return\cf2  1;\par
+        \}\par
+    \}\par
+\}\par
+\par
+\f2\fs32\lang1033 Another method:\par
+\cf1\f1\fs22 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text.RegularExpressions;\par
+\cf1 namespace\cf2  ConsoleApplication13\par
+\{\par
+    \cf1 class\cf2  \cf3 Program\cf2\par
+    \{\par
+        \cf1 static\cf2  \cf1 void\cf2  Main(\cf1 string\cf2 [] args)\par
+        \{\par
+            \cf1 string\cf2  str = Console.ReadLine();\par
+            \cf1 int\cf2  i = UserProgramCode.validateColorCode(str);\par
+            \cf1 if\cf2  (i == 1)\par
+                Console.WriteLine(\cf5 "Valid"\cf2 );\par
+            \cf1 else\cf2\par
+                Console.WriteLine(\cf5 "Invalid"\cf2 );\par
+            Console.ReadLine();\par
+        \}\par
+    \}\par
+    \cf1 class\cf2  \cf3 UserProgramCode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  validateColorCode(\cf1 string\cf2  s)\par
+        \{\par
+\par
+            Regex reg = \cf1 new\cf2  Regex(\cf4 @"^(([#])+([A-F0-9]\{6\}))$"\cf2 );\par
+            \cf1 if\cf2  (reg.IsMatch(s))\par
+            \{\par
+                \cf1 return\cf2  1;\par
+            \}\par
+            \cf1 else\cf2\par
+                \cf1 return\cf2  -1;\par
+        \}\par
+    \}\par
+\}\par
+\f2\fs40 _______________________________________\par
+Find Gift Voucher\par
+\fs22 In a game two dice is thrown. From the sum of the two dice, the player is going to get the gift voucher\par
+from the club. Write a program to find the amount of the gift voucher. Print the amount received as gift.\par
+Sum of Two Dices ------------------ Gift Voucher in Rs\par
+2,3,6,11 ------------------------------ 1000\par
+4,7,10--------------------------------- 3000\par
+5,8,9,12------------------------------- 5000\par
+In the method,\par
+Only Positive number (1-6) should be given as a input numbers. Else return -1.\par
+Include a class UserProgramCode with a static method findGiftVoucher which accepts two integers. The\par
+return type (Integer) should return the gift voucher amount. If the any of the inputs is invalid return -1.\par
+Create a Class Program which would be used to accept a positive Integer, and call the static method\par
+present in UserProgramCode.\par
+Input and Output Format:\par
+Input consists of two integers.\par
+Output consists of an Integer( the gift voucher amount) or a String \ldblquote Invalid Input\rdblquote  if any of the inputs is\par
+invalid.\par
+Refer sample output for formatting specifications.\par
+\par
+Sample Input 1:\par
+1\par
+2\par
+Sample Output 1:\par
+1000\par
+\par
+Sample Input 2:\par
+1\par
+-2\par
+Sample Output 2:\par
+Invalid Input\par
+\par
+\cf1\f1 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text.RegularExpressions;\par
+\cf1 namespace\cf2  ConsoleApplication13\par
+\{\par
+    \cf1 class\cf2  \cf3 Program\cf2\par
+    \{\par
+        \cf1 static\cf2  \cf1 void\cf2  Main(\cf1 string\cf2 [] args)\par
+        \{\par
+            \cf1 int\cf2  n, c, m;\par
+            n = Convert.ToInt32(Console.ReadLine());\par
+            m = Convert.ToInt32(Console.ReadLine());\par
+            c = UserProgramCode.findGiftVoucher(n, m);\par
+            Console.WriteLine(c);\par
+\par
+        \}\par
+    \}\par
+    \cf1 class\cf2  \cf3 UserProgramCode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  findGiftVoucher(\cf1 int\cf2  a, \cf1 int\cf2  b)\par
+        \{\par
+            \cf1 if\cf2  (a > 0 && b > 0 && a < 7 && b < 7)\par
+            \{\par
+                \cf1 if\cf2  ((a + b == 2) || (a + b == 3) || (a + b == 6) || (a + b == 11))\par
+                    \cf1 return\cf2  (1000);\par
+                \cf1 else\cf2  \cf1 if\cf2  ((a + b == 4) || (a + b == 7) || (a + b == 10))\par
+                    \cf1 return\cf2  (3000);\par
+                \cf1 else\cf2  \cf1 if\cf2  ((a + b == 5) || (a + b == 8) || (a + b == 9) || (a + b == 12))\par
+                    \cf1 return\cf2  (5000);\par
+\par
+            \}\par
+            \cf1 else\cf2\par
+            \{ Console.WriteLine(\cf5 "Invalid Input"\cf2 ); \}\par
+            \cf1 return\cf2  0;\par
+            \par
+        \}\par
+    \}\par
+\}\par
+\f2 ==========at the end of output it is returning 0 also\par
+________________________________________________________________________\par
+\fs40 Unique Even Sum\par
+\cf1\f1\fs22 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\cf1 using\cf2  System.Text.RegularExpressions;\par
+\par
+\cf1 namespace\cf2  l2ndl3\par
+\{\par
+    \cf1 class\cf2  \cf3 Usercode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  counter(\cf1 int\cf2 [] a)\par
+        \{\par
+            \cf1 int\cf2  flag = 0;\par
+            List<\cf1 int\cf2 > li = \cf1 new\cf2  List<\cf1 int\cf2 >();\par
+            List<\cf1 int\cf2 > li1 = \cf1 new\cf2  List<\cf1 int\cf2 >(a);\par
+            \cf1 int\cf2  i;\par
+            \cf1 for\cf2  (i = 0; i < a.Length; i++)\par
+            \{\par
+                \cf1 for\cf2  (\cf1 int\cf2  j = i + 1; j < a.Length; j++)\par
+                \{\par
+                    \cf1 if\cf2  (a[i] == a[j])\par
+                    \{\par
+                        li.Add(a[i]);\par
+                    \}\par
+                \}\par
+            \}\par
+\par
+            li1 = li1.Distinct().ToList();\par
+            \cf1 int\cf2 [] z = li1.Except(li).ToArray();\par
+            \cf1 for\cf2  (i = 0; i < a.Length; i++)\par
+            \{\par
+                \cf1 if\cf2  (z[i] % 2 == 0)\par
+                \{\par
+                    flag = flag + z[i];\par
+                \}\par
+            \}\par
+            \cf1 return\cf2  flag;\par
+        \}\par
+       \par
+    \}\par
+\}\par
+\f2 ________________________________________________________________________\par
+\fs40 Next Year Day\par
+\cf1\f1\fs22 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\cf1 using\cf2  System.Text.RegularExpressions;\par
+\cf1 namespace\cf2  l2ndl3\par
+\{\par
+    \cf1 class\cf2  \cf3 Usercode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 string\cf2  user(\cf1 string\cf2  st)\par
+        \{\par
+             DateTime dt = \cf1 new\cf2  DateTime(); \par
+            DateTime dt1 = \cf1 new\cf2  DateTime();\par
+            DateTime.TryParseExact(st, \cf5 "dd/MM/yyyy"\cf2 , \cf1 null\cf2 , \f2\tab\tab\tab\f1 System.Globalization.DateTimeStyles.None,\cf1 out\cf2  dt);\par
+\par
+            Console.WriteLine(dt.DayOfWeek); \par
+            dt1 = dt.AddYears(1);\par
+            \cf1 string\cf2  d = (dt1.DayOfWeek).ToString(); \par
+            \cf1 string\cf2  d1 = d.ToLower();\par
+            \cf1 return\cf2  d1;\par
+\par
+        \}\par
+    \}\par
+\}\par
+\f2 ________________________________________________________________________\par
+\fs40 Train Tariff Calculation\par
+\cf1\f1\fs22 using\cf2  System;\par
+\cf1 using\cf2  System.Collections.Generic;\par
+\cf1 using\cf2  System.Linq;\par
+\cf1 using\cf2  System.Text;\par
+\par
+\cf1 namespace\cf2  train_tariff_calculation\par
+\{\par
+    \cf1 class\cf2  \cf3 userprogramcode\cf2\par
+    \{\par
+        \cf1 public\cf2  \cf1 static\cf2  \cf1 int\cf2  train(\cf1 string\cf2  b, \cf1 string\cf2  j, \cf1 string\cf2  c)\par
+        \{\par
+            \cf1 int\cf2  cost = 0;\par
+            DateTime dt;\par
+            DateTime dt1;\par
+            \cf1 bool\cf2  x = DateTime.TryParseExact(b, \cf5 "yyyy.MM.dd"\cf2 , \cf1 null\cf2 , System.Globalization.DateTimeStyles.None, \cf1 out\cf2  dt);\par
+            \cf1 bool\cf2  y = DateTime.TryParseExact(j, \cf5 "yyyy.MM.dd"\cf2 , \cf1 null\cf2 , System.Globalization.DateTimeStyles.None, \cf1 out\cf2  dt1);\par
+            \cf1 if\cf2  (!x && !y)\par
+            \{\par
+                \cf1 return\cf2  -1;\par
+            \}\par
+            \cf1 int\cf2  z = (dt - dt1).Days;\par
+            Console.WriteLine(z);\par
+\par
+            \cf1 if\cf2  (z < 3)\par
+                \cf1 return\cf2  -2;\par
+            \cf1 else\cf2  \cf1 if\cf2  (z > 90)\par
+                \cf1 return\cf2  -3;\par
+            \cf1 if\cf2  (c != \cf5 "SL"\cf2  && c != \cf5 "1AC"\cf2  && c != \cf5 "2AC"\cf2  && c != \cf5 "3AC"\cf2 )\par
+                \cf1 return\cf2  -4;\par
+            \cf1 if\cf2  (z > 30 && z <= 90)\par
+            \{\par
+                \cf1 if\cf2  (c == \cf5 "SL"\cf2 )\par
+                    cost = 1000;\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "1AC"\cf2 )\par
+                    cost = 2500;\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "2AC"\cf2 )\par
+                    cost = 2000;\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "3AC"\cf2 )\par
+                    cost = 1500;\par
+            \}\par
+            \cf1 else\cf2  \cf1 if\cf2  (z >= 21 && z <= 30)\par
+            \{\par
+                \cf1 if\cf2  (c == \cf5 "SL"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.10 * 1000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "1AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.10 * 2500);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "2AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.10 * 2000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "3AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.10 * 1500);\par
+            \}\par
+            \cf1 else\cf2  \cf1 if\cf2  (z >= 11 && z <= 20)\par
+            \{\par
+                \cf1 if\cf2  (c == \cf5 "SL"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.20 * 1000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "1AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.20 * 2500);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "2AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.20 * 2000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "3AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.20 * 1500);\par
+            \}\par
+            \cf1 else\cf2  \cf1 if\cf2  (z >= 4 && z <= 10)\par
+            \{\par
+                \cf1 if\cf2  (c == \cf5 "SL"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.30 * 1000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "1AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.30 * 2500);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "2AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.30 * 2000);\par
+\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "3AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.30 * 1500);\par
+            \}\par
+            \cf1 else\cf2  \cf1 if\cf2  (z == 3)\par
+            \{\par
+                \cf1 if\cf2  (c == \cf5 "SL"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.40 * 1000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "1AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.40 * 2500);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "2AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.40 * 2000);\par
+                \cf1 else\cf2  \cf1 if\cf2  (c == \cf5 "3AC"\cf2 )\par
+                    cost = (\cf1 int\cf2 )(1.40 * 1500);\par
+            \}\par
+            \cf1 return\cf2  cost;\par
+        \}\par
+    \}\par
+\f2 ________________________________________________________________________\par
+Please note:Last three codes do not have main function here\f1\par
+\f2\par
+\cf0\f0\lang9\par
+\par
+\fs24\par
+}
+ 

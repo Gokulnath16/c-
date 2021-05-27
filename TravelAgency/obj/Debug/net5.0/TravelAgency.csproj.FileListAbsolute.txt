@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.exe
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.deps.json
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.dll
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\ref\TravelAgency.dll
+D:\CTS\C# MyWorstQuestions\TravelAgency\bin\Debug\net5.0\TravelAgency.pdb
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.dll
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\ref\TravelAgency.dll
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.pdb
+D:\CTS\C# MyWorstQuestions\TravelAgency\obj\Debug\net5.0\TravelAgency.genruntimeconfig.cache

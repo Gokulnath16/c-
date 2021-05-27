@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.exe
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.deps.json
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.dll
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\ref\UniqueEvenSum.dll
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\bin\Debug\net5.0\UniqueEvenSum.pdb
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.dll
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\ref\UniqueEvenSum.dll
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.pdb
+D:\CTS\C# MyWorstQuestions\UniqueEvenSum\obj\Debug\net5.0\UniqueEvenSum.genruntimeconfig.cache

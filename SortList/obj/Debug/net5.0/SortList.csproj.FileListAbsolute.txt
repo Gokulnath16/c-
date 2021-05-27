@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.exe
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.deps.json
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.dll
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\ref\SortList.dll
+D:\CTS\C# MyWorstQuestions\SortList\bin\Debug\net5.0\SortList.pdb
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.dll
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\ref\SortList.dll
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.pdb
+D:\CTS\C# MyWorstQuestions\SortList\obj\Debug\net5.0\SortList.genruntimeconfig.cache

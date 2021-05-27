@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.exe
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.deps.json
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.dll
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ref\ImageTypes.dll
+D:\CTS\C# MyWorstQuestions\ImageTypes\bin\Debug\net5.0\ImageTypes.pdb
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.dll
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ref\ImageTypes.dll
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.pdb
+D:\CTS\C# MyWorstQuestions\ImageTypes\obj\Debug\net5.0\ImageTypes.genruntimeconfig.cache

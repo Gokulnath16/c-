@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.exe
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.deps.json
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.dll
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ref\ReverseSubString.dll
+D:\CTS\C# MyWorstQuestions\ReverseSubString\bin\Debug\net5.0\ReverseSubString.pdb
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.dll
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ref\ReverseSubString.dll
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.pdb
+D:\CTS\C# MyWorstQuestions\ReverseSubString\obj\Debug\net5.0\ReverseSubString.genruntimeconfig.cache

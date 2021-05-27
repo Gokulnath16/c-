@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.exe
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.deps.json
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.dll
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\ref\AddNonCommonElements.dll
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\bin\Debug\net5.0\AddNonCommonElements.pdb
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.dll
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\ref\AddNonCommonElements.dll
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.pdb
+D:\CTS\C# MyWorstQuestions\AddNonCommonElements\obj\Debug\net5.0\AddNonCommonElements.genruntimeconfig.cache

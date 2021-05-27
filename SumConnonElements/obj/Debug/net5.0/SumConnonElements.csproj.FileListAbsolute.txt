@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.exe
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.deps.json
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.dll
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\ref\SumConnonElements.dll
+D:\CTS\C# MyWorstQuestions\SumConnonElements\bin\Debug\net5.0\SumConnonElements.pdb
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.dll
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\ref\SumConnonElements.dll
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.pdb
+D:\CTS\C# MyWorstQuestions\SumConnonElements\obj\Debug\net5.0\SumConnonElements.genruntimeconfig.cache
