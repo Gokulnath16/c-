@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 
@@ -9,9 +9,9 @@ namespace TravelAgency
         static void Main(string[] args)
         {
             //Input
-            int n = 4;
-            string[] arr = {"ACN", "DAU", "ADN", "DCU"};
-            //string[] arr = {"ABN", "BDU", "CDU", "CAN", "DBU", "BDN"};
+            //int n = 4;
+            //string[] arr = {"U"};
+            string[] arr = {"ABN", "BDU", "CDU", "CAN", "DBU", "BDN"};
             //string[] arr = {"ADU", "BAC", "DCN"};
 
 
@@ -50,7 +50,7 @@ namespace TravelAgency
 
             //Logic
             
-            int sum, diff;
+            int sum;
             double rupee = 0;
 
             foreach(string item in li) {
@@ -58,30 +58,35 @@ namespace TravelAgency
                 char[] getSplitString = item.ToCharArray();    
                 //Console.WriteLine(string.Join(", ", getSplitString));
                 
-                sum = Route.IndexOf(Char.ToString(getSplitString[0])) + Route.IndexOf(Char.ToString(getSplitString[1])) + 1;
-                diff = sum - 2;
+                sum = Route.IndexOf(Char.ToString(getSplitString[0])) + Route.IndexOf(Char.ToString(getSplitString[1]));
 
-                //Console.WriteLine(diff);
+                //Console.WriteLine(sum);
 
-                if(diff == 0) {
+                if(sum == 1) {
                     if(getSplitString[2] == 'U') rupee += 10 * 1.2;
                     else  rupee += 10;
                 }
 
-                else if(diff == 1) {
-                    if(getSplitString[2] == 'U') rupee +=  20 * 1.2;
+                else if(sum == 2) {
+                    if(getSplitString[2] == 'U') rupee +=  30 * 1.2;
                     else rupee += 30;
                 }
-                else if(diff == 2) {
-                    if(getSplitString[2] == 'U') rupee += 70 * 1.2;
-                    else rupee += 70;
+                else if(sum == 3) {
+                    if(Route.IndexOf(Char.ToString(getSplitString[0])) == 0 || Route.IndexOf(Char.ToString(getSplitString[1])) == 0) {
+                        if(getSplitString[2] == 'U') rupee +=  20 * 1.2;
+                        else rupee += 20;    
+                    }
+                    else {
+                        if(getSplitString[2] == 'U') rupee += 70 * 1.2;
+                        else rupee += 70;
+                    }
                 }
-                else if(diff == 3) {
+                else if(sum == 4) {
                     if(getSplitString[2] == 'U') rupee += 60 * 1.2;
                     else rupee += 60;
                 }
 
-                else if(diff == 4) {
+                else if(sum == 5) {
                     if(getSplitString[2] == 'U') rupee += 40 * 1.2;
                     else rupee += 40;
                 }
