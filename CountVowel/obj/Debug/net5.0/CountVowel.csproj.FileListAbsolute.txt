@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.exe
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.deps.json
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.dll
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\ref\CountVowel.dll
+D:\CTS\C# MyWorstQuestions\CountVowel\bin\Debug\net5.0\CountVowel.pdb
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.dll
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\ref\CountVowel.dll
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.pdb
+D:\CTS\C# MyWorstQuestions\CountVowel\obj\Debug\net5.0\CountVowel.genruntimeconfig.cache
