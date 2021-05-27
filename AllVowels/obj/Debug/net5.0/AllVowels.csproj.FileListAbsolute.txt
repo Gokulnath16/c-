@@ -1,0 +1,16 @@
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.csprojAssemblyReference.cache
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.AssemblyInfoInputs.cache
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.AssemblyInfo.cs
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.csproj.CoreCompileInputs.cache
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.exe
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.deps.json
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.runtimeconfig.json
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.runtimeconfig.dev.json
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.dll
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\ref\AllVowels.dll
+D:\CTS\C# MyWorstQuestions\AllVowels\bin\Debug\net5.0\AllVowels.pdb
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.dll
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\ref\AllVowels.dll
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.pdb
+D:\CTS\C# MyWorstQuestions\AllVowels\obj\Debug\net5.0\AllVowels.genruntimeconfig.cache
