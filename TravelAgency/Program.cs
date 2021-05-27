@@ -10,8 +10,8 @@ namespace TravelAgency
         {
             //Input
             //int n = 4;
-            //string[] arr = {"U"};
-            string[] arr = {"ABN", "BDU", "CDU", "CAN", "DBU", "BDN"};
+            string[] arr = {"DCN"};
+            //string[] arr = {"ABN", "BDU", "CDU", "CAN", "DBU", "BDN"};
             //string[] arr = {"ADU", "BAC", "DCN"};
 
 
@@ -72,7 +72,7 @@ namespace TravelAgency
                     else rupee += 30;
                 }
                 else if(sum == 3) {
-                    if(Route.IndexOf(Char.ToString(getSplitString[0])) == 0 || Route.IndexOf(Char.ToString(getSplitString[1])) == 0) {
+                    if(Route.IndexOf(Char.ToString(getSplitString[0])) != 0 && Route.IndexOf(Char.ToString(getSplitString[1])) != 0) {
                         if(getSplitString[2] == 'U') rupee +=  20 * 1.2;
                         else rupee += 20;    
                     }
